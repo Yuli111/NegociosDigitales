@@ -1,0 +1,41 @@
+$color_main:#d5cacf; 
+$color-footer:black;
+@mixin btn-base {
+   padding:0.3rem 1rem;
+border-radius: 0.25rem;
+}
+@mixin btn-sn-modify{
+   font-size: 0.75rem;
+   padding: 0.1rem 1rem;
+}
+.main-menu{
+   margin-bottom: 0;
+   li{
+      list-style:none;
+      font-size: 0.80rem;
+      display: inline;
+      a{
+         color: rgb(13, 13, 13);
+         text-decoration: none;
+         text-shadow: 1px 1px 1px rgb(90, 89, 89);
+
+         &:hover{
+            text-decoration:underline;
+            color:red;
+            font-size: 1rem;
+         }
+      }
+   }
+}
+
+.icon-sm{
+   i{
+      padding: 0.1rem 0.25rem;
+      color: $color_main;
+      border-radius: 50%;
+      box-shadow: 0 0 10px #00000559;
+      font-size: 0.75rem;
+   }
+}
+
+
